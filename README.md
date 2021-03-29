@@ -1,5 +1,12 @@
 # First-project
 
+this is Mohammad Khaled Ahmad Talafha master degree holder in applied mathematics from Debrecen university - Hungary
+and BA degree also in mathematics
+I'm currently studying at ASAC- LTUC to be full stack developer and programmer
+which is one of my favorite field and related to my studying background
+beside that there are other fields that i have experience in like teaching at the ministry of education for five years
+receptionist and sales at Everest hotel and spa and wedding planner at Fantasia for event management  .
+
 ## How did this go, overall?
 
 its amazing overall an im so happy of what im doing
