@@ -18,3 +18,7 @@ till now i dont have any qustions but i can say this field is huge wide range ar
 ## How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
 
 it takes from me around one hour and i though it will take more than three hours but its like going great for me.  
+
+for oday lad 30-.3-2021
+i added tow mor qustions about me and summery of my work experiance and education
+beside that i adde some of places i visited in the past years

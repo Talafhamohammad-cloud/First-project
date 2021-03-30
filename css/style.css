@@ -1,0 +1,46 @@
+header h1{
+    text-align: center;
+    background-color: rgb(72, 255, 0);
+    text-decoration: none;
+    margin: 5%;
+    text-decoration-style: dotted;
+    font-size: 250%;
+    font-style: oblique;
+}
+#intro{
+    text-align: left;
+    background-color: lightgreen;
+    text-decoration-line: underline;
+    font-size: 150%;
+}
+#oll{
+    text-align: right;
+    font-size: 200%;
+}
+#places{
+    text-align: center;
+    position: relative;
+    top: -40px;
+    font-size: 200%;
+    background-color: rgb(169, 228, 91);
+}
+#placeti{
+    text-align: center;
+    font-size: 250%;
+    font-style: italic;
+    position: relative;
+    top: -60px;
+
+}
+.start{
+    text-align: left;
+    font-size: 170%;
+    background-color: rgb(129, 251, 225);
+
+}
+img{
+    float: right;
+    position: relative;
+    top: -80px;
+
+}
