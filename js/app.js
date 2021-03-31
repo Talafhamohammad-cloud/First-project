@@ -5,42 +5,46 @@ alert('Welcome to my website please be patience and answer the qustion with yes 
 let Q1 = prompt('what is your name');
 
 
-let Q2 = prompt('is this the first time for you here?');
 let score=0;
 
-function firstQuestion(){
+// function firstQuestion(){
+  // let Q2 = prompt('is this the first time for you here?');
   
-  if (Q2.toLowerCase() === 'yes' || Q2.toLowerCase() === 'y') {
+//   if (Q2.toLowerCase() === 'yes' || Q2.toLowerCase() === 'y') {
   
-    //console.log('i hope you will enjoy here');
-    alert('i hope you will enjoy here');
-    score=score+1;
+//     //console.log('i hope you will enjoy here');
+//     alert('i hope you will enjoy here');
+//     score=score+1;
+//   }
+//   else if (Q2.toLowerCase() === 'no' || Q2.toLowerCase() === 'n') {
+//     //console.log('ths is great news welcome again');
+//     alert('ths is great news welcome again');
+//   }
+//   else {
+//     //console.log('please' + Q1 + 'you have to answer with yes or no be carful nex time');
+//     alert('please' + Q1 + 'you have to answer with yes/no or y/n be carefull nex time');
+//   }
+// }
+// firstQuestion();
+
+function secondQuestion(){
+
+  let Q3 = prompt('have we met before in person?');
+  if (Q3.toLowerCase() === 'yes' || Q3.toLowerCase() === 'y') {
+    //console.log('we have to meet again');
+    alert('we have to meet again');
+    score++;
   }
-  else if (Q2.toLowerCase() === 'no' || Q2.toLowerCase() === 'n') {
-    //console.log('ths is great news welcome again');
-    alert('ths is great news welcome again');
+  else if (Q3.toLowerCase() === 'no' || Q3.toLowerCase() === 'n') {
+    //console.log('ths is great news welcome agai hope we will meet soon');
+    alert('ths is great news welcome again hope we will meet soon');
   }
   else {
-    //console.log('please' + Q1 + 'you have to answer with yes or no be carful nex time');
+    //console.log('please' + Q1 + 'you have to answer with yes or no be careful nex time');
     alert('please' + Q1 + 'you have to answer with yes/no or y/n be carefull nex time');
   }
 }
-firstQuestion();
-
-// let Q3 = prompt('have we met before in person?');
-// if (Q3.toLowerCase() === 'yes' || Q3.toLowerCase() === 'y') {
-//   //console.log('we have to meet again');
-//   alert('we have to meet again');
-//   score++;
-// }
-// else if (Q3.toLowerCase() === 'no' || Q3.toLowerCase() === 'n') {
-//   //console.log('ths is great news welcome agai hope we will meet soon');
-//   alert('ths is great news welcome again hope we will meet soon');
-// }
-// else {
-//   //console.log('please' + Q1 + 'you have to answer with yes or no be careful nex time');
-//   alert('please' + Q1 + 'you have to answer with yes/no or y/n be carefull nex time');
-// }
+secondQuestion();
 
 // let Q4 = prompt('do you think its good idea to make this webpage for me?');
 // if (Q4.toLowerCase() === 'yes' || Q4.toLowerCase() === 'y') {
