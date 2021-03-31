@@ -46,40 +46,44 @@ let score=0;
 // }
 // secondQuestion();
 
-function thirdQuestion() {
+// function thirdQuestion() {
 
-  let Q4 = prompt('do you think its good idea to make this webpage for me?');
-  if (Q4.toLowerCase() === 'yes' || Q4.toLowerCase() === 'y') {
-    //console.log('so you have to give me your opinion to improve this site');
-    alert('so you have to give me your opinion to improve this site');
-    score++;
+//   let Q4 = prompt('do you think its good idea to make this webpage for me?');
+//   if (Q4.toLowerCase() === 'yes' || Q4.toLowerCase() === 'y') {
+//     //console.log('so you have to give me your opinion to improve this site');
+//     alert('so you have to give me your opinion to improve this site');
+//     score++;
+//   }
+//   else if (Q4.toLowerCase() === 'no' || Q4.toLowerCase() === 'n') {
+//     //console.log('it will be great if you have another ideas insted of this');
+//     alert('it will be great if you have another ideas insted of this');
+//     //yourscore = ++;
+//   }
+//   else {
+//     //console.log('please' + Q1 + 'you have to answer with yes or no be carful nex time');
+//     alert('please' + Q1 + 'you have to answer with yes/no or y/n be carefull nex time');
+//   }
+// }
+// thirdQuestion();
+
+function fourthQuestion(){
+
+  let Q5 = prompt('do you have mathematical background?');
+  if (Q5.toLowerCase() === 'yes' || Q5.toLowerCase() === 'y') {
+    //console.log('great!!!.you will be active member here');
+    alert('great!!!.you will be active member here');
+    score=score+1;
   }
-  else if (Q4.toLowerCase() === 'no' || Q4.toLowerCase() === 'n') {
-    //console.log('it will be great if you have another ideas insted of this');
-    alert('it will be great if you have another ideas insted of this');
-    //yourscore = ++;
+  else if (Q5.toLowerCase() === 'no' || Q5.toLowerCase() === 'n') {
+    //console.log('No worries here you can learn whatever you want to learn');
+    alert('No worries here you can learn whatever you want to learn');
   }
   else {
     //console.log('please' + Q1 + 'you have to answer with yes or no be carful nex time');
     alert('please' + Q1 + 'you have to answer with yes/no or y/n be carefull nex time');
   }
 }
-thirdQuestion();
-
-// let Q5 = prompt('do you have mathematical background?');
-// if (Q5.toLowerCase() === 'yes' || Q5.toLowerCase() === 'y') {
-//   //console.log('great!!!.you will be active member here');
-//   alert('great!!!.you will be active member here');
-//   score=score+1;
-// }
-// else if (Q5.toLowerCase() === 'no' || Q5.toLowerCase() === 'n') {
-//   //console.log('No worries here you can learn whatever you want to learn');
-//   alert('No worries here you can learn whatever you want to learn');
-// }
-// else {
-//   //console.log('please' + Q1 + 'you have to answer with yes or no be carful nex time');
-//   alert('please' + Q1 + 'you have to answer with yes/no or y/n be carefull nex time');
-// }
+fourthQuestion();
 // let Q6 = prompt('do you have money?');
 // if (Q6.toLowerCase() === 'yes' || Q6.toLowerCase() === 'y') {
 //   //console.log('here you can earn more than your expectaion');
