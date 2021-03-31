@@ -66,41 +66,45 @@ let score=0;
 // }
 // thirdQuestion();
 
-function fourthQuestion(){
+// function fourthQuestion(){
 
-  let Q5 = prompt('do you have mathematical background?');
-  if (Q5.toLowerCase() === 'yes' || Q5.toLowerCase() === 'y') {
-    //console.log('great!!!.you will be active member here');
-    alert('great!!!.you will be active member here');
-    score=score+1;
+//   let Q5 = prompt('do you have mathematical background?');
+//   if (Q5.toLowerCase() === 'yes' || Q5.toLowerCase() === 'y') {
+//     //console.log('great!!!.you will be active member here');
+//     alert('great!!!.you will be active member here');
+//     score=score+1;
+//   }
+//   else if (Q5.toLowerCase() === 'no' || Q5.toLowerCase() === 'n') {
+//     //console.log('No worries here you can learn whatever you want to learn');
+//     alert('No worries here you can learn whatever you want to learn');
+//   }
+//   else {
+//     //console.log('please' + Q1 + 'you have to answer with yes or no be carful nex time');
+//     alert('please' + Q1 + 'you have to answer with yes/no or y/n be carefull nex time');
+//   }
+// }
+// fourthQuestion();
+
+function fifthQuestion(){
+
+  let Q6 = prompt('do you have money?');
+  if (Q6.toLowerCase() === 'yes' || Q6.toLowerCase() === 'y') {
+    //console.log('here you can earn more than your expectaion');
+    alert('here you can earn more than your expectaion');
   }
-  else if (Q5.toLowerCase() === 'no' || Q5.toLowerCase() === 'n') {
-    //console.log('No worries here you can learn whatever you want to learn');
-    alert('No worries here you can learn whatever you want to learn');
+  
+  else if (Q6.toLowerCase() === 'no' || Q6.toLowerCase() === 'n') {
+    //console.log('join us and this will be the last time you said NO');
+    alert('join us and this will be the last time you said NO');
+    score++;
+    //yourscore = ++;
   }
   else {
     //console.log('please' + Q1 + 'you have to answer with yes or no be carful nex time');
-    alert('please' + Q1 + 'you have to answer with yes/no or y/n be carefull nex time');
+    alert('you had to answer with Yes/No or y/n anyway you are welcome here');
   }
 }
-fourthQuestion();
-// let Q6 = prompt('do you have money?');
-// if (Q6.toLowerCase() === 'yes' || Q6.toLowerCase() === 'y') {
-//   //console.log('here you can earn more than your expectaion');
-//   alert('here you can earn more than your expectaion');
-// }
-
-// else if (Q6.toLowerCase() === 'no' || Q6.toLowerCase() === 'n') {
-//   //console.log('join us and this will be the last time you said NO');
-//   alert('join us and this will be the last time you said NO');
-//   score++;
-//   //yourscore = ++;
-// }
-// else {
-//   //console.log('please' + Q1 + 'you have to answer with yes or no be carful nex time');
-//   alert('you had to answer with Yes/No or y/n anyway you are welcome here');
-// }
-
+fifthQuestion();
 
 // let Q7 = prompt('guess number between 1 and 10');
 
