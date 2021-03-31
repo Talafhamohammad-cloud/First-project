@@ -85,53 +85,58 @@ let score=0;
 // }
 // fourthQuestion();
 
-function fifthQuestion(){
+// function fifthQuestion(){
 
-  let Q6 = prompt('do you have money?');
-  if (Q6.toLowerCase() === 'yes' || Q6.toLowerCase() === 'y') {
-    //console.log('here you can earn more than your expectaion');
-    alert('here you can earn more than your expectaion');
-  }
+//   let Q6 = prompt('do you have money?');
+//   if (Q6.toLowerCase() === 'yes' || Q6.toLowerCase() === 'y') {
+//     //console.log('here you can earn more than your expectaion');
+//     alert('here you can earn more than your expectaion');
+//   }
   
-  else if (Q6.toLowerCase() === 'no' || Q6.toLowerCase() === 'n') {
-    //console.log('join us and this will be the last time you said NO');
-    alert('join us and this will be the last time you said NO');
-    score++;
-    //yourscore = ++;
-  }
-  else {
-    //console.log('please' + Q1 + 'you have to answer with yes or no be carful nex time');
-    alert('you had to answer with Yes/No or y/n anyway you are welcome here');
-  }
-}
-fifthQuestion();
-
-// let Q7 = prompt('guess number between 1 and 10');
-
-// if (Q7 === '5') {
-//   alert('amazing you guess it from the first time');
-//   score++;
-// }
-
-// else {
-//   let i = 'count';
-//   for (i = 1; i < 4; i++) {
-//     Q7 = prompt(' wrong answer you have up to 3 attempt');
-//     if (Q7 > 5) {
-//       alert('oops!! its too high');
-//     }
-//     else if (Q7 < 5) {
-//       alert('oops!! its too low');
-//     }
-//     else {
-//       alert('amazing you guess it now');
-//       break;
-//     }
-//     if (i === 3) {
-//       alert(' you rach the 4th attempt dont be sad you can tray later\n the correct answer is 5');
-//     }
+//   else if (Q6.toLowerCase() === 'no' || Q6.toLowerCase() === 'n') {
+//     //console.log('join us and this will be the last time you said NO');
+//     alert('join us and this will be the last time you said NO');
+//     score++;
+//     //yourscore = ++;
+//   }
+//   else {
+//     //console.log('please' + Q1 + 'you have to answer with yes or no be carful nex time');
+//     alert('you had to answer with Yes/No or y/n anyway you are welcome here');
 //   }
 // }
+// fifthQuestion();
+
+function sixthQuestion(){
+
+  let Q7 = prompt('guess number between 1 and 10');
+  
+  if (Q7 === '5') {
+    alert('amazing you guess it from the first time');
+    score++;
+  }
+  
+  else {
+    let i = 'count';
+    for (i = 1; i < 4; i++) {
+      Q7 = prompt(' wrong answer you have up to 3 attempt');
+      if (Q7 > 5) {
+        alert('oops!! its too high');
+      }
+      else if (Q7 < 5) {
+        alert('oops!! its too low');
+      }
+      else {
+        alert('amazing you guess it now');
+        break;
+      }
+      if (i === 3) {
+        alert(' you rach the 4th attempt dont be sad you can tray later\n the correct answer is 5');
+      }
+    }
+  }
+}
+sixthQuestion();
+
 // let food= ['mansaf', 'pizza', 'burger', 'chiken'];
 
 // let Q8 = prompt('can you guess which food is the most beloved to my heart from these :'+'\n'+'[mansaf, hotdog, pizza, burger, BQ, chiken, potato, falafel, maklobah]');
