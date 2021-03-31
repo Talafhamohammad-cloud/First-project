@@ -106,60 +106,64 @@ let score=0;
 // }
 // fifthQuestion();
 
-function sixthQuestion(){
+// function sixthQuestion(){
 
-  let Q7 = prompt('guess number between 1 and 10');
+//   let Q7 = prompt('guess number between 1 and 10');
   
-  if (Q7 === '5') {
+//   if (Q7 === '5') {
+//     alert('amazing you guess it from the first time');
+//     score++;
+//   }
+  
+//   else {
+//     let i = 'count';
+//     for (i = 1; i < 4; i++) {
+//       Q7 = prompt(' wrong answer you have up to 3 attempt');
+//       if (Q7 > 5) {
+//         alert('oops!! its too high');
+//       }
+//       else if (Q7 < 5) {
+//         alert('oops!! its too low');
+//       }
+//       else {
+//         alert('amazing you guess it now');
+//         break;
+//       }
+//       if (i === 3) {
+//         alert(' you rach the 4th attempt dont be sad you can tray later\n the correct answer is 5');
+//       }
+//     }
+//   }
+// }
+// sixthQuestion();
+
+function seventhQuestion(){
+
+  let food= ['mansaf', 'pizza', 'burger', 'chiken'];
+  
+  let Q8 = prompt('can you guess which food is the most beloved to my heart from these :'+'\n'+'[mansaf, hotdog, pizza, burger, BQ, chiken, potato, falafel, maklobah]');
+  Q8 = Q8.toLowerCase();
+  if (Q8 === 'mansaf'||Q8 === 'pizza'||Q8 ==='burger'||Q8 ==='chiken') {
     alert('amazing you guess it from the first time');
     score++;
   }
-  
   else {
     let i = 'count';
-    for (i = 1; i < 4; i++) {
-      Q7 = prompt(' wrong answer you have up to 3 attempt');
-      if (Q7 > 5) {
-        alert('oops!! its too high');
-      }
-      else if (Q7 < 5) {
-        alert('oops!! its too low');
+    for (i = 1; i < 6; i++) {
+      Q8 = prompt(' wrong answer you have up to 5 attempt');
+      if (Q8 !== 'mansaf'||Q8 !== 'pizza'||Q8 !=='burger'||Q8 !=='chiken') {
+        alert('try again');
       }
       else {
         alert('amazing you guess it now');
         break;
       }
-      if (i === 3) {
-        alert(' you rach the 4th attempt dont be sad you can tray later\n the correct answer is 5');
+      if (i === 5) {
+        alert(' you rach the 6th attempt dont be sad you can tray later\n the correct answer is mansaf or pizza or burger or chiken');
       }
     }
   }
 }
-sixthQuestion();
-
-// let food= ['mansaf', 'pizza', 'burger', 'chiken'];
-
-// let Q8 = prompt('can you guess which food is the most beloved to my heart from these :'+'\n'+'[mansaf, hotdog, pizza, burger, BQ, chiken, potato, falafel, maklobah]');
-// Q8 = Q8.toLowerCase();
-// if (Q8 === 'mansaf'||Q8 === 'pizza'||Q8 ==='burger'||Q8 ==='chiken') {
-//   alert('amazing you guess it from the first time');
-//   score++;
-// }
-// else {
-//   let i = 'count';
-//   for (i = 1; i < 6; i++) {
-//     Q8 = prompt(' wrong answer you have up to 5 attempt');
-//     if (Q8 !== 'mansaf'||Q8 !== 'pizza'||Q8 !=='burger'||Q8 !=='chiken') {
-//       alert('try again');
-//     }
-//     else {
-//       alert('amazing you guess it now');
-//       break;
-//     }
-//     if (i === 5) {
-//       alert(' you rach the 6th attempt dont be sad you can tray later\n the correct answer is mansaf or pizza or burger or chiken');
-//     }
-//   }
-// }
+seventhQuestion();
 // alert('Finaly\n' + Q1 + '\n' + 'you are welcome here its your turn to discover the website\n' + 'your score is ' + score + '  out of 7');
 
