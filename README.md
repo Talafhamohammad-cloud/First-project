@@ -22,3 +22,8 @@ it takes from me around one hour and i though it will take more than three hours
 for oday lad 30-.3-2021
 i added tow mor qustions about me and summery of my work experiance and education
 beside that i adde some of places i visited in the past years
+
+
+
+Navigator: Mohammad Talafha
+Driver: Abdelrahman Mohammad
