@@ -27,40 +27,44 @@ let score=0;
 // }
 // firstQuestion();
 
-function secondQuestion(){
+// function secondQuestion(){
 
-  let Q3 = prompt('have we met before in person?');
-  if (Q3.toLowerCase() === 'yes' || Q3.toLowerCase() === 'y') {
-    //console.log('we have to meet again');
-    alert('we have to meet again');
+//   let Q3 = prompt('have we met before in person?');
+//   if (Q3.toLowerCase() === 'yes' || Q3.toLowerCase() === 'y') {
+//     //console.log('we have to meet again');
+//     alert('we have to meet again');
+//     score++;
+//   }
+//   else if (Q3.toLowerCase() === 'no' || Q3.toLowerCase() === 'n') {
+//     //console.log('ths is great news welcome agai hope we will meet soon');
+//     alert('ths is great news welcome again hope we will meet soon');
+//   }
+//   else {
+//     //console.log('please' + Q1 + 'you have to answer with yes or no be careful nex time');
+//     alert('please' + Q1 + 'you have to answer with yes/no or y/n be carefull nex time');
+//   }
+// }
+// secondQuestion();
+
+function thirdQuestion() {
+
+  let Q4 = prompt('do you think its good idea to make this webpage for me?');
+  if (Q4.toLowerCase() === 'yes' || Q4.toLowerCase() === 'y') {
+    //console.log('so you have to give me your opinion to improve this site');
+    alert('so you have to give me your opinion to improve this site');
     score++;
   }
-  else if (Q3.toLowerCase() === 'no' || Q3.toLowerCase() === 'n') {
-    //console.log('ths is great news welcome agai hope we will meet soon');
-    alert('ths is great news welcome again hope we will meet soon');
+  else if (Q4.toLowerCase() === 'no' || Q4.toLowerCase() === 'n') {
+    //console.log('it will be great if you have another ideas insted of this');
+    alert('it will be great if you have another ideas insted of this');
+    //yourscore = ++;
   }
   else {
-    //console.log('please' + Q1 + 'you have to answer with yes or no be careful nex time');
+    //console.log('please' + Q1 + 'you have to answer with yes or no be carful nex time');
     alert('please' + Q1 + 'you have to answer with yes/no or y/n be carefull nex time');
   }
 }
-secondQuestion();
-
-// let Q4 = prompt('do you think its good idea to make this webpage for me?');
-// if (Q4.toLowerCase() === 'yes' || Q4.toLowerCase() === 'y') {
-//   //console.log('so you have to give me your opinion to improve this site');
-//   alert('so you have to give me your opinion to improve this site');
-//   score++;
-// }
-// else if (Q4.toLowerCase() === 'no' || Q4.toLowerCase() === 'n') {
-//   //console.log('it will be great if you have another ideas insted of this');
-//   alert('it will be great if you have another ideas insted of this');
-//   //yourscore = ++;
-// }
-// else {
-//   //console.log('please' + Q1 + 'you have to answer with yes or no be carful nex time');
-//   alert('please' + Q1 + 'you have to answer with yes/no or y/n be carefull nex time');
-// }
+thirdQuestion();
 
 // let Q5 = prompt('do you have mathematical background?');
 // if (Q5.toLowerCase() === 'yes' || Q5.toLowerCase() === 'y') {
