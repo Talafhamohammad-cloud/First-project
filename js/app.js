@@ -112,7 +112,7 @@ else {
 }
 let food= ['mansaf', 'pizza', 'burger', 'chiken'];
 
-let Q8 = prompt('can you guess which food is the most beloved to my heart');
+let Q8 = prompt('can you guess which food is the most beloved to my heart from these :'+'\n'+'[mansaf, hotdog, pizza, burger, BQ, chiken, potato, falafel, maklobah]');
 Q8 = Q8.toLowerCase();
 if (Q8 === 'mansaf'||Q8 === 'pizza'||Q8 ==='burger'||Q8 ==='chiken') {
   alert('amazing you guess it from the first time');
