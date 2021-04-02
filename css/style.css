@@ -1,46 +1,50 @@
 header h1{
     text-align: center;
-    background-color: rgb(72, 255, 0);
+    background-color: rgb(88, 175, 53);
     text-decoration: none;
     margin: 5%;
-    text-decoration-style: dotted;
+    text-decoration-style:none;
     font-size: 250%;
     font-style: oblique;
 }
 #intro{
     text-align: left;
     background-color: lightgreen;
-    text-decoration-line: underline;
+    text-decoration-line:none;
     font-size: 150%;
 }
 #oll{
-    text-align: right;
+
     font-size: 200%;
+    background-color: rgb(118, 199, 86);
+    
 }
 #places{
     text-align: center;
     position: relative;
-    top: -40px;
+    top: -1px;
     font-size: 200%;
-    background-color: rgb(169, 228, 91);
+    background-color: rgb(55, 160, 41);
 }
-#placeti{
-    text-align: center;
-    font-size: 250%;
-    font-style: italic;
-    position: relative;
-    top: -60px;
 
-}
+
+
 .start{
+
     text-align: left;
     font-size: 170%;
-    background-color: rgb(129, 251, 225);
+    background-color: rgb(38, 172, 120);
+    text-decoration: none;
+    display: inline-block;
 
 }
 img{
     float: right;
     position: relative;
-    top: -80px;
+    top: -95px;
 
+}
+body{
+    background-color: rgb(229, 247, 132);
+    margin: 1%;
 }
